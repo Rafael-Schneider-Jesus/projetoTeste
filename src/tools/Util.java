@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package view.tools;
+package tools;
 import java.util.Date;
 import javax.swing.JComponent;
 import javax.swing.JTextField;
@@ -61,5 +61,9 @@ public class Util {
     }
       public static String dataStr(String data) {
         return "";
+    }
+
+    public static void habilitar(JTextField jtxtsabor, JTextField jtxtCodigo, JComboBox<String> jCbocopo, JComboBox<String> jCbotamanho, boolean b) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

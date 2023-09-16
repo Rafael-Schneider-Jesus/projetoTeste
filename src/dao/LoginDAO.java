@@ -5,6 +5,7 @@
  */
 package dao;
 
+import bean.RsLogin;
 import bean.RsUsuarios;
 import java.util.List;
 import org.hibernate.Criteria;
@@ -14,7 +15,7 @@ import org.hibernate.criterion.Restrictions;
  *
  * @author u08649973108
  */
-public class UsuariosDAO extends DAO_Abstract{
+public class LoginDAO extends DAO_Abstract{
 
 @Override
     public void insert(Object object) {
@@ -45,8 +46,8 @@ public class UsuariosDAO extends DAO_Abstract{
     @Override
     public Object list(int id) {
         session.beginTransaction();
-        Criteria criteria = session.createCriteria(RsUsuarios.class);
-        criteria.add(Restrictions.eq("rsIdusuarios", id));
+        Criteria criteria = session.createCriteria(RsLogin.class);
+        criteria.add(Restrictions.eq("rsIdlogin", id));
         List lista = criteria.list();
         session.getTransaction().commit();
         return lista.get(0);
@@ -56,7 +57,7 @@ public class UsuariosDAO extends DAO_Abstract{
     @Override
     public List listAll() {
         session.beginTransaction();
-        Criteria criteria = session.createCriteria(RsUsuarios.class);
+        Criteria criteria = session.createCriteria(RsLogin.class);
         List lista = criteria.list();
         session.getTransaction().commit();
         return lista;

@@ -214,20 +214,20 @@
         </Property>
       </Properties>
       <SubComponents>
-        <Component class="javax.swing.JButton" name="jBtnOk">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="OK"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnOkActionPerformed"/>
-          </Events>
-        </Component>
         <Component class="javax.swing.JButton" name="jBtnCancelar">
           <Properties>
             <Property name="text" type="java.lang.String" value="Cancelar"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnCancelarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jBtnOk">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="OK"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnOkActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>
@@ -290,11 +290,11 @@
             <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
           </StatementProvider>
           <Parameters>
-            <CodeExpression id="5_jBtnOk">
-              <CodeVariable name="jBtnOk" type="8194" declaredType="javax.swing.JButton"/>
+            <CodeExpression id="5_jBtnCancelar">
+              <CodeVariable name="jBtnCancelar" type="8194" declaredType="javax.swing.JButton"/>
               <ExpressionOrigin>
                 <ExpressionProvider type="ComponentRef">
-                  <ComponentRef name="jBtnOk"/>
+                  <ComponentRef name="jBtnCancelar"/>
                 </ExpressionProvider>
               </ExpressionOrigin>
             </CodeExpression>
@@ -306,11 +306,11 @@
             <CodeMethod name="add" class="java.awt.Container" parameterTypes="java.awt.Component"/>
           </StatementProvider>
           <Parameters>
-            <CodeExpression id="6_jBtnCancelar">
-              <CodeVariable name="jBtnCancelar" type="8194" declaredType="javax.swing.JButton"/>
+            <CodeExpression id="6_jBtnOk">
+              <CodeVariable name="jBtnOk" type="8194" declaredType="javax.swing.JButton"/>
               <ExpressionOrigin>
                 <ExpressionProvider type="ComponentRef">
-                  <ComponentRef name="jBtnCancelar"/>
+                  <ComponentRef name="jBtnOk"/>
                 </ExpressionProvider>
               </ExpressionOrigin>
             </CodeExpression>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/view/JFrmLogin.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/dao/DAO_Abstract.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/bean/RsVendedor.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/bean/RsCliente.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/view/JDlgProduto.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/dao/VendedorDAO.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/view/JDlgVendedor.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/dao/ClienteDAO.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/bean/RsUsuarios.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/dao/ProdutoDAO.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/dao/VendaProdutoDAO.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/view/JDlgvendaIA.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/dao/UsuariosDAO.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/dao/HibernateUtil.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/tools/Util.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/dao/VendaDAO.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/view/JDlgVenda.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/view/JDlgcliente.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/view/JDlgusuarioNovoIA.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/bean/RsLogin.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/dao/LoginDAO.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/bean/RsVendaProduto.java</file>
+            <file>file:/C:/Users/dell/Downloads/RafaelJesus_p3-20230916T185253Z-001/RafaelJesus_p3/RafaelJesus_p2/RafaelJesus_p1/RafaelJesus/src/view/JDlgUsuariosNovo.java</file>
+        </group>
+    </open-files>
+</project-private>

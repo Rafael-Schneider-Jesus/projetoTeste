@@ -5,7 +5,9 @@
  */
 package view;
 
-import bean.Usuarios;
+
+
+import bean.RsUsuarios;
 import dao.UsuariosDAO;
 import javax.swing.JOptionPane;
 
@@ -14,7 +16,7 @@ import javax.swing.JOptionPane;
  
  * @author u04127224290
  */
-public class JFrmLogim extends javax.swing.JFrame {
+public class JFrmLogin extends javax.swing.JFrame {
  
  int Cont;
  
@@ -22,7 +24,7 @@ public class JFrmLogim extends javax.swing.JFrame {
     /**
      * Creates new form JFrmPrincipal
      */
-    public JFrmLogim() {
+    public JFrmLogin() {
         initComponents();
         setTitle("Login");
         setLocationRelativeTo(null);
@@ -155,29 +157,11 @@ String pass;
 String senha;
         
         UsuariosDAO usuariosDAO = new UsuariosDAO();
-       Usuarios usuarios = new Usuarios();
+       RsUsuarios rsusuarios = new RsUsuarios();
        pass = JTxtUsuario.getText().trim();
      senha = jPwfSenha.getText().trim();
       
-     usuarios = (Usuarios) usuariosDAO.login(pass, senha);
-    
-       
-//        if(Cont<3){ 
-//        if (usuarios.getApelido().equals(pass) && usuarios.getSenha().equals(senha)  ) { 
-//            JFrmPrincipal jFrmPrincipal = new JFrmPrincipal();
-//            jFrmPrincipal.setVisible(true) ;
-//        
-//       
-//        this.dispose();
-//            
-//             
-//             
-//                    
-//        }else{ 
-//           
-//          JOptionPane.showMessageDialog(null, "Senha ou Usuario incorretas");
-//         Cont = Cont+1;
-//        }}else{ System.exit(0);}
+
     }//GEN-LAST:event_jBtnEntrarActionPerformed
 
     private void jBtnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnCancelarActionPerformed
@@ -202,21 +186,23 @@ String senha;
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(JFrmLogim.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(JFrmLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(JFrmLogim.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(JFrmLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(JFrmLogim.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(JFrmLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(JFrmLogim.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(JFrmLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new JFrmLogim().setVisible(true);
+                new JFrmLogin().setVisible(true);
             }
         });
     }

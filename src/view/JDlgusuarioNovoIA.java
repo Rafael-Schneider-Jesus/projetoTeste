@@ -46,8 +46,8 @@ public class JDlgusuarioNovoIA extends javax.swing.JDialog {
         JTxtCodigo = new javax.swing.JTextField();
         jCboNivel = new javax.swing.JComboBox<>();
         jPanel1 = new javax.swing.JPanel();
-        jBtnOk = new javax.swing.JButton();
         jBtnCancelar = new javax.swing.JButton();
+        jBtnOk = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
@@ -109,14 +109,6 @@ public class JDlgusuarioNovoIA extends javax.swing.JDialog {
         flowLayout1.setAlignOnBaseline(true);
         jPanel1.setLayout(flowLayout1);
 
-        jBtnOk.setText("OK");
-        jBtnOk.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBtnOkActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jBtnOk);
-
         jBtnCancelar.setText("Cancelar");
         jBtnCancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -124,6 +116,14 @@ public class JDlgusuarioNovoIA extends javax.swing.JDialog {
             }
         });
         jPanel1.add(jBtnCancelar);
+
+        jBtnOk.setText("OK");
+        jBtnOk.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBtnOkActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jBtnOk);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
